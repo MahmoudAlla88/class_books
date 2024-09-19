@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الكتب الراقي</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            color: #0b2c30e3;
+        }
+
+        header {
+            background-color: #3749a15e;
+            padding: 10px 0;
+            text-align: center;
+            color: #0b2c30e3;
+
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .scientific-section {
+
+            background-color: #a28bbf57;
+            box-shadow: -2px -1px 20px 8px #293a69;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .children-section h2 {
+            color: #214b3f;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .children-section p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-types {
+            background-color: #a28bbf57;
+            box-shadow: -2px -1px 20px 8px #293a69;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .book-types div {
+            flex: 1;
+            padding: 20px;
+            background-color: #0b3d7163;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .book-types div:hover {
+            transform: scale(1.05);
+        }
+
+        .book-types div img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .book-types div h3 {
+            font-size: 1.3em;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .book-types div p {
+            font-size: 1.09em;
+            color: #ffffffb0;
+        }
+
+        .book-types div a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0c0b3063;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .book-types div a:hover {
+            background-color: #5a5959a6;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #b5bcdc;
+            color: #f3f2f2;
+            position: relative;
+        }
+
+        .social-media {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon img {
+            width: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 1px;">كتب وراء الستار-كتب متنوعة</h1>
+
+    </header>
+    <div class="container">
+        <section class="scientific-section">
+            <h2>: اكتشف تشكيلتنا الممتعة من الكتب المتنوعة</h2>
+
+            <div class="book-types">
+                <div>
+                    <img src="images/pic4.png" alt="Book Image">
+                    <h3>شهيّا كفراق</h3>
+                    <p> تتحدث “مستغانمي” عن ﺃﺑﻄﺎﻝ ﺭﻭﺍﻳﺎﺗﻬﺎ، ﻋﻼﻗﺘﻬﺎ ﺑﻬﻢ ﻭﺑﺎﻟﻜﺘﺎﺑﺔ، ﻓﺮﺍﻗﻬﺎ ﻟﻬﻢ ﺑﻌﺪ ﻛﻞ ﻛﺘﺎﺏ، ﻭﻟﻘﺎﺅﻫﺎ
+                        ﺍﻟﻤﺘﺠﺪﺩ ﻣﻊ ﺍﻟﻜﺘﺎﺑﺔ </p>
+                    <a href="https://ar.wikipedia.org/wiki/شهيا_كفراق_(رواية)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture11.png" alt="Book Image">
+                    <h3>كليلة ودمنة</h3>
+                    <p>تكون كتاب كليلة ودمنة من خمسة عشر فصلاً تحتوي جميعها على قصص خيالية أسطورية بأبطال تشبيهية </p>
+                    <a href="https://ar.wikipedia.org/wiki/كليلة_ودمنة">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturee1.png" alt="Book Image">
+                    <h3>الأمير الصغير</h3>
+                    <p>تعد رواية الأمير الصغير واحدة من أفضل كتب القرن العشرين في فرنسا،وفي جميع انحاء العالم</p>
+                    <a href="https://ar.wikipedia.org/wiki/الأمير_الصغير_(رواية)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturee2.png" alt="Book Image">
+                    <h3>القوقعة</h3>
+                    <p>تُسرد الرواية على لسان الشاب الذي أمضى أكثر من 13 سنة في السجون السورية دون أن يعرف التهمة </p>
+                    <a href="https://ar.wikipedia.org/wiki/القوقعة:_يوميات_متلصص">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturee3.png" alt="Book Image">
+                    <h3>سحر الترتيب</h3>
+                    <p>تحدثت عن إقبالها المستمر على مشاهدة المجلات التي تتناول الصور الرائعة للبيوت الجميلة المنظمة</p>
+                    <a href="https://ar.wikipedia.org/wiki/سحر_الترتيب">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="scientific-section">
+            <div class="book-types">
+                <div>
+                    <img src="images/picturee4.png" alt="Book Image">
+                    <h3>فن اللامبالاة</h3>
+                    <p> الكتاب أحد كتب التنمية البشرية وهو موجه للأشخاص الذين يريدون العيش حياة غير مألوفة، حيث يتحدث عن
+                        الصدمات </p>
+                    <a href="https://ar.wikipedia.org/wiki/فن_اللامبالاة_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturee5.png" alt="Book Image">
+                    <h3>رواية الخيميائي</h3>
+                    <p>تتحدث الرواية عن قصة الراعي الأندلسي «سانتياغو» الذي مضى في البحث عن حلمه المتمثل بكنز مدفون قرب
+                        أهرامات مصر</p>
+                    <a href="https://ar.wikipedia.org/wiki/الخيميائي_(رواية)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturee6.png" alt="Book Image">
+                    <h3>الرمز المفقود</h3>
+                    <p>رواية الرمز المفقود للكاتب دان براون هي إحدى الروايات الشهيرة التي تتحدث عن الرموز والألغاز
+                        المعقدة
+                        التي تحتوي عليها</p>
+
+                    <a href="https://ar.wikipedia.org/wiki/الرمز_المفقود_(رواية)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturee7.png" alt="Book Image">
+                    <h3>عالم بلا خرائط</h3>
+                    <p> تملأ هذه الرواية الكثير من الأسرار المخفية يعجز القارئ عن فكها. وتعتبر التجربة الثانيةعالم بلا
+                        خرائط
+                        الرواية الفريدة </p>
+                    <a href="https://ar.wikipedia.org/wiki/عالم_بلا_خرائط_(رواية_مشتركة)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturee8.png" alt="Book Image">
+                    <h3>كتاب وصايا</h3>
+                    <p>عبر وصايا حاول الكاتب أن يكون بحكمة (لقمان), وبساطة (جاكسون براون), وشاعرية (بركات الشريف) </p>
+
+                    <a href="https://ar.wikipedia.org/wiki/كتاب_وصايا">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">© 2023 كتب وراء الستار</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfcB0RwZ-1HeluH5JrRwIcSP-85_bHsdZ6Lf5lSJ8qXndjIaxnTu5KMLc70GpFnu1yeUIbOy4eXNPDmBkmloTznS3ZU14pZ1f-p3Vi1NIKS2Hg&smuh=60025&lh=Ac-qYWXWQKnUFHRz18U"
+                class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/raad_sahori/?igsh=OWRwdG51ZWp1eW5x&utm_source=qr"
+                class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/+962789362638" class="social-icon"><img src="images/whats.png" alt="WhatsApp"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

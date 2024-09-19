@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الكتب الراقي</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: url('images/history.jpg') center/cover no-repeat;
+            color: #4d2d0f;
+        }
+
+        header {
+            background-color: #bdb28d;
+            padding: 10px 0;
+            text-align: center;
+            color: #4d2d0f;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .scientific-section {
+            background-color: #e7d5b4e6;
+            box-shadow: -2px -1px 20px 8px #5d3e20;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .children-section h2 {
+            color: #214b3f;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .children-section p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-types {
+            background-color: #e7d5b4e6;
+            box-shadow: -2px -1px 20px 8px #5d3e20;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .book-types div {
+            flex: 1;
+            padding: 20px;
+            background-color: #cbb388;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .book-types div:hover {
+            transform: scale(1.05);
+        }
+
+        .book-types div img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .book-types div h3 {
+            font-size: 1.3em;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .book-types div p {
+            font-size: 1.2em;
+            color: #ffffffb0;
+        }
+
+        .book-types div a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #573a1f54;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .book-types div a:hover {
+            background-color: #5a5959a6;
+        }
+
+        footer {
+            padding: 8px;
+            background-color: #cbb388b5;
+            color: #f3f2f2;
+            position: relative;
+        }
+
+        .social-media {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon img {
+            width: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 1px;">كتب وراء الستار-روايات تاريخية</h1>
+    </header>
+    <div class="container">
+        <section class="scientific-section">
+            <h2>: اكتشف تشكيلتنا الممتعة من الروايات التاريخية</h2>
+            <div class="book-types">
+                <div>
+                    <img src="images/picturep31.png" alt="Book Image">
+                    <h3>مؤمن صادق</h3>
+                    <p>كتاب ممتع ومشوق جدا لمحبي التاريخ ينتمي للعلم النفس الاجتماعي تصنيفًا، أما تاريخًا فهو ينتمي
+                        للعام 1951م،</p>
+                    <a href="https://ar.wikipedia.org/wiki/المؤمن_الصادق">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturep36.png" alt="Book Image">
+                    <h3>رجال التاريخ</h3>
+                    <p>إن عنوان رجال من التاريخ يمكن أن يجتمع تحته أكثر من خمسمائة بل وأكثر من ذلك ولا ألقى القول
+                        جزافاً.</p>
+                    <a href="https://ar.wikipedia.org/wiki/رجال_من_التاريخ_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturep32.png" alt="Book Image">
+                    <h3>روح السياسة</h3>
+                    <p>الكتاب عن الروح السياسية للجماعات باعتبارها قاطرة الحياة الفكرية التي تقود معارك الجماعات في
+                        الميادين</p>
+                    <a href="https://ar.wikipedia.org/wiki/روح_السياسة">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturep34.png" alt="Book Image">
+                    <h3>الإستشراق</h3>
+                    <p>الاستشراق أسلوب تفكيرٍ مرتكزٍ على التّمييز الوجوديّ والمعرفيّ القائم بين الشّرق وفي غالبيّة
+                        الأحيان الغرب</p>
+                    <a href="https://ar.wikipedia.org/wiki/الاستشراق_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturep35.png" alt="Book Image">
+                    <h3>القوة الناعمة</h3>
+                    <p>هذا الكتاب إسهام مفهومي مهم وقاطع فى فهم أعمق للسياسة العالمية وفي سياسة خارجيةاكثر حكمة</p>
+                    <a href="https://ar.wikipedia.org/wiki/القوة_الناعمة_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="scientific-section">
+            <div class="book-types">
+
+                <div>
+                    <img src="images/picturep30.png" alt="Book Image">
+                    <h3>الان باديو</h3>
+                    <p> هذه الطبعة الجديدة تتميز بعض الإضافات وأهمهما ملحق صور كبير يتناول رحلة المؤلف ومحطات حياته
+                        المختلفة
+                    </p>
+                    <a href="https://ar.wikipedia.org/wiki/رحلتي_الفكرية_في_البذور_والجذور_والثمار">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+
+                <div>
+                    <img src="images/picture37.png" alt="Book Image">
+                    <h3>كتاب الامير</h3>
+                    <p>وهو دراسة في الفقه السياسي
+                        وقد أصبح هذا الكتاب الصغير منذ ظهروه في القرن السادس عشر مثار جدال كبير</p>
+                    <a href="https://ar.wikipedia.org/wiki/الأمير_(كتاب)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturep30.png" alt="Book Image">
+                    <h3>طبائع الاستبداد</h3>
+                    <p>كتاب يتحدث عن الاستبداد وهو لغة، هو غرور المرء برأيه والأنفة عن قبول النصيحة
+                        أو الاستقلال في الرأي وفي الحقوق</p>
+
+
+                    <a href="https://ar.wikipedia.org/wiki/طبائع_الاستبداد_ومصارع_الاستعباد_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picturep66.png" alt="Book Image">
+                    <h3>الحرب والسلم</h3>
+                    <p>حرب وسلم رواية أدبية تدور أحداثها في بداية القرن التاسع عشر، مع اجتياح القائد الفرنسي نابليون
+                        بونابارت الأراضي الروسية</p>
+                    <a href="https://ar.wikipedia.org/wiki/الحرب_والسلم">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picturep12.png" alt="Book Image">
+                    <h3>الطنطورية</h3>
+                    <p>الطنطورية رواية للأديبة المصرية رضوى عاشور، صدرت سنة 2010، عن دار الشروق المصرية. تسرد الرواية
+                        سيرة
+                        متخيلة </p>
+
+                    <a href="https://ar.wikipedia.org/wiki/الطنطورية_(رواية)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">© 2023 كتب وراء الستار</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfcB0RwZ-1HeluH5JrRwIcSP-85_bHsdZ6Lf5lSJ8qXndjIaxnTu5KMLc70GpFnu1yeUIbOy4eXNPDmBkmloTznS3ZU14pZ1f-p3Vi1NIKS2Hg&smuh=60025&lh=Ac-qYWXWQKnUFHRz18U"
+                class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/raad_sahori/?igsh=OWRwdG51ZWp1eW5x&utm_source=qr"
+                class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/+962789362638" class="social-icon"><img src="images/whats.png" alt="WhatsApp"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

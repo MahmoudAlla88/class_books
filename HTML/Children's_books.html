@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الكتب الراقي</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #cdcdcf;
+            color: #5f3333;
+        }
+
+        header {
+            background-color: #99a8b2;
+            padding: 10px 0;
+            text-align: center;
+            color: #00000091;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .children-section {
+            background-color: #99a8b2;
+            border-radius: 40px;
+            padding: 36px;
+            margin-bottom: 20px;
+        }
+
+        .children-section h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .children-section p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-types {
+            background-color: #99a8b2;
+            border-radius: 40px;
+            padding: 18px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .book-types div {
+            flex: 1;
+            padding: 20px;
+            background-color: #d7d4d4d6;
+            border-radius: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .book-types div:hover {
+            transform: scale(1.05);
+        }
+
+        .book-types div img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .book-types div h3 {
+            font-size: 1.3em;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .book-types div p {
+            font-size: 1.09em;
+            color: #392929;
+        }
+
+        .book-types div a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #31566e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .book-types div a:hover {
+            background-color: #527f9a;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #99a8b2;
+            color: #f3f2f2;
+            position: relative;
+        }
+
+        .social-media {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon img {
+            width: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 1px;">كتب وراء الستار - كتب الأطفال</h1>
+    </header>
+    <section class="scientific-section">
+        <div class="container">
+            <section class="children-section">
+                <h2>استكشاف عوالم مليئة بالمرح للأطفال</h2>
+                <h3>: اكتشف تشكيلتنا الممتعة من كتب الأطفال التعليمية والترفيهية</h3>
+
+                <div class="book-types">
+                    <div>
+                        <img src="images/الاميرة القاسية.jpg" alt="Book Image">
+                        <h3>الاميرة القاسية</h3>
+                        <p>تحكي القصة عن أمير صغير اسمه "كوسا" معروف برجاحة العقل والإحسان وحب الخير والصفات الحسنة
+                            والطيبة
+                        </p>
+                        <a
+                            href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/الامير الصغير.jpg" alt="Book Image">
+                        <h3>الامير الصغير</h3>
+                        <p>تبدأ القصة بفتى يرسم ثعباناً يبتلع فيلاً فيستغرب محيطه فالناس لا يفهمون ما يرسم، فتتحول
+                            الرسمة
+                            إلى حقيقة </p>
+                        <a
+                            href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1_%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1_(%D8%B1%D9%88%D8%A7%D9%8A%D8%A9)">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/اللحية الزرقاء.jpg" alt="Book Image">
+                        <h3>اللحية الزرقاء</h3>
+                        <p>هي عن رجل ليس من طبقة النبلاء لكنه غني جدا، وكانت لحيته الزرقاء تجعله يبدو بشعا للغاية. سبق
+                            له أن
+                            تزوج ست مرات</p>
+                        <a
+                            href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%AD%D9%8A%D8%A9_%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/sally.jpg" alt="Book Image">
+                        <h3>سالي</h3>
+                        <p>تتحدث القصة عن فتاة من أب بريطاني تعيش في الهند وأم فرنسية درست في بريطانيا عندما كبرت في
+                            فترة
+                            1885</p>
+                        <a href="https://ar.wikipedia.org/wiki/%D8%B3%D8%A7%D9%84%D9%8A_(%D8%A3%D9%86%D9%85%D9%8A)">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/joha.jpg" alt="Book Image">
+                        <h3>جحا في بلاد </h3>
+                        <p>هذه إحدى القصص الطريفة لجحا، تلك الشخصية الكلاسيكية التي كثيرا ما تذكر في جحا الجن وهي احدى
+                            القصص
+                            القديمة</p>
+                        <a href="https://ar.wikipedia.org/wiki/%D8%AC%D8%AD%D8%A7">معلومات إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                </div>
+            </section>
+            <section class="scientific-section">
+                <div class="book-types">
+                    <div>
+                        <img src="images/king.jpg" alt="Book Image">
+                        <h3>الملك النجار</h3>
+                        <p>هي واحدة من سلسلة حكايات الكاتب كامل كيلاني والتي هي عبارة عن قصص فكاهية علمية تربوية للأطفال
+                        </p>
+                        <a
+                            href="https://ktabpdf.com/watch/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%B1-pdf">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/abu krbbos.jpg" alt="Book Image">
+                        <h3>أبوُ خَربُوش</h3>
+                        <p>يحكي لنا الكاتب هنا قصّة سلطان القرود أبو خربوش واهتمامه بالعلم والتعليم في مجتمع القرود.
+                            ماذا سيطلب السلطان </p>
+                        <a href="https://wikieduc.com/index-page.php?num=6737">معلومات إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/layla.jpg" alt="Book Image">
+                        <h3>ليلى والذئب </h3>
+                        <p>وتحكي عن طفلة لُقِبت بـ"ذات الرداء الأحمر"، أو ما يعرف عنها في بعض النسخ "ذات القبعة
+                            الحمراء"،
+                            لفتاةصغيرة</p>
+                        <a
+                            href="https://ar.wikipedia.org/wiki/%D8%B0%D8%A7%D8%AA_%D8%A7%D9%84%D8%B1%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/alaa deen.jpg" alt="Book Image">
+                        <h3>علاء الدين</h3>
+                        <p>علاء الدين هو شاب فقير يتيم الأب يعيش في إحدى المدن في الصين ويعمل بأجر زهيد في سوق المدينة
+                            وفي احد
+                            الايام </p>
+                        <a href="https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D8%A7%D8%A1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                    <div>
+                        <img src="images/laymon.jpg" alt="Book Image">
+                        <h3>الليمون العجيب</h3>
+                        <p>في قديم الزمان كان هنالك ملك وعنده ابن وسيم وعنيد كان هذا الأمير لا يرغب بالزواج، أما الملك
+                            فكان يود
+                            أن يزوج ابنه </p>
+                        <a
+                            href="https://www.storytel.com/ae/ar/books/%D8%A7%D9%84%D9%84%D9%8A%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%AC%D9%8A%D8%A8-470754">معلومات
+                            إضافية</a>
+
+                        <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+
+        <footer>
+            <p>© 2023 كتب وراء الستار</p>
+            <div class="social-media">
+                <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfcB0RwZ-1HeluH5JrRwIcSP-85_bHsdZ6Lf5lSJ8qXndjIaxnTu5KMLc70GpFnu1yeUIbOy4eXNPDmBkmloTznS3ZU14pZ1f-p3Vi1NIKS2Hg&smuh=60025&lh=Ac-qYWXWQKnUFHRz18U"
+                    class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/raad_sahori/?igsh=OWRwdG51ZWp1eW5x&utm_source=qr"
+                    class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/+962789362638" class="social-icon"><img src="images/whats.png"
+                        alt="WhatsApp"></a>
+            </div>
+        </footer>
+</body>
+
+</html>

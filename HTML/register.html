@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            background: url("images/background_register.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        .register-container {
+            width: px;
+            padding: 20px;
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+            border-radius: 8px;
+        }
+
+        .register-container h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            color: #ffffff;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="register-container">
+        <h1>Registration</h1>
+        <form method="post" action="rej.php" class="register-form">
+            <div class="form-group">
+                <label>Name:
+                    <input type="text"name="n" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Email:
+                    <input type="email" name="e" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Password:
+                    <input type="password" name="p" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Confirm-password:
+                    <input type="password" name="cp" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" name="re">Register</button>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

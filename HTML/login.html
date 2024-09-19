@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="Master.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="image-container">
+      <img src="images/background_login2.jpg" alt="Description of the image">
+    </div>
+
+    <div class="login-container">
+      <form class="login-form" action="log.php" method="post">
+        <h2>Login</h2>
+        <div class="input-group">
+          <label for="username"> email:</label>
+          <input type="email" id="username" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="password"> Password:</label>
+          <input type="password" id="password" name="pas" required>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          <label style="margin-left: -89px; font-size: 15px;" for="remember-me">Remember Me</label>
+          <input type="submit" id=zr value="Login">
+        </div>
+      </form>
+      <div class="dd">
+        <p style="color: white;">Don't have an account?
+          <a href="register.html"> Register
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الكتب الراقي</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: url('images/literary.jpg') center/cover no-repeat;
+            color: #0b3018e3;
+        }
+
+        header {
+            background-color: #7bb590;
+            padding: 10px 0;
+            text-align: center;
+            color: #0b3018e3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+
+        .scientific-section {
+            background-color: #29694b57;
+            box-shadow: -2px -1px 20px 8px #29694b;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .children-section h2 {
+            color: #214b3f;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .children-section p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-types {
+            background-color: #6ca181;
+            box-shadow: -2px -1px 20px 8px #296946;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .book-types div {
+            flex: 1;
+            padding: 20px;
+            background-color: #4f8763;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .book-types div:hover {
+            transform: scale(1.05);
+        }
+
+        .book-types div img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .book-types div h3 {
+            font-size: 1.3em;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .book-types div p {
+            font-size: 1.09em;
+            color: #ffffffb0;
+        }
+
+        .book-types div a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0b301863;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .book-types div a:hover {
+            background-color: #5a5959a6;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #7bb5909e;
+            color: #f3f2f2;
+            position: relative;
+        }
+
+        .social-media {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon img {
+            width: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 1px;">كتب وراء الستار-روايات أدبية</h1>
+
+    </header>
+    <div class="container">
+        <section class="scientific-section">
+            <h2>: اكتشف تشكيلتنا الممتعة من الروايات الأدبية</h2>
+
+            <div class="book-types">
+                <div>
+                    <img src="images/picture1.png" alt="Book Image">
+                    <h3>البرتقالة الآلية</h3>
+                    <p>البرتقالة الآلية معبرة عن سيادة روح العنف في العالم المعاصر، واعتبرت نموذجًا مجسدًا لما يدور في
+                        هذا العالم </p>
+                    <a href="https://ar.wikipedia.org/wiki/برتقالة_آلية_(رواية)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture2o.png" alt="Book Image">
+                    <h3>رجال الشمس</h3>
+                    <p> هي الصراخ الشرعي المفقود، إنها الصوت الفلسطيني الذي ضاع طويلاً في خيام التشرد تتمحور حول الموت
+                        الفلسطيني</p>
+                    <a href="https://ar.wikipedia.org/wiki/رجال_في_الشمس_(رواية)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture3o.png" alt="Book Image">
+                    <h3>ساق البامبو</h3>
+                    <p>طرحت الرواية تساؤلات نقدية عميقة حول تداخل الدين والثقافة عند العرب، وعن ما يراه البعض سطحيةً
+                    </p>
+                    <a href="https://ar.wikipedia.org/wiki/ساق_البامبو_(رواية)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picture5.png" alt="Book Image">
+                    <h3>الخبز الحافي</h3>
+                    <p>تحكي الرواية مأساة إنسان أبت ظروفه إلى أن يبقى في ظلمات الأمية حتى وصل العشرين من عمره</p>
+                    <a href="https://ar.wikipedia.org/wiki/الخبز_الحافي">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture4.png" alt="Book Image">
+                    <h3>المتشائل</h3>
+                    <p>تدور أحداث الرواية حول سعيد أبي النحس المتشائل، وهو فلسطيني من الأراضي المحتلة عام 1948م</p>
+                    <a href="https://ar.wikipedia.org/wiki/الوقائع_الغريبة_في_اختفاء_سعيد_أبي_النحس_المتشائل">معلومات
+                        إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="scientific-section">
+            <div class="book-types">
+                <div>
+                    <img src="images/picture6.png" alt="Book Image">
+                    <h3>عالم بلا خرائط</h3>
+                    <p>تناول فيها حياة مهاجر فلسطيني في العراق والعلاقات التي كونها في مدينة تعيش صراعا اجتماعيا وسياسيا
+                        قاسيا وحاسما</p>
+                    <a href="https://ar.wikipedia.org/wiki/قائمة_مؤلفات_جبرا_إبراهيم_جبرا#عالم_بلا_خرائط">معلومات
+                        إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picture7.png" alt="Book Image">
+                    <h3>القندس </h3>
+                    <p>يخوض بطل الرواية «غالب الوجزي» رحلة عكسية في تاريخ عائلته يمر خلالها بسيرة ثلاثة أجيال من تاريخ
+                        أسرة
+                        «الوجزي» </p>
+                    <a href="https://ar.wikipedia.org/wiki/القندس_(رواية)">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture8.png" alt="Book Image">
+                    <h3>العنكبوت</h3>
+                    <p>كتاب العنكبوت هي رواية من أجمل الروايات التي تطرح أحد الاسئله الأزليه عن مصير الروح للكاتب مصطفى
+                        محمود</p>
+
+                    <a href="https://ar.wikipedia.org/wiki/العنكبوت_(كتاب)#">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/picture9.png" alt="Book Image">
+                    <h3>رواية غدا</h3>
+                    <p>هي رواية من اجمل الروايات التي تستعرض حبكة روائية مُتقَنة إلى حدود الواقعي. و تشويق جهنّمي يؤسِر
+                        القلوب</p>
+                    <a href="https://watanbooks.com/product/رواية-غدا-للكاتب-غيوم-ميسو/">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/picture10.png" alt="Book Image">
+                    <h3>سيرة مدينة</h3>
+                    <p>في هذا العمل الجميل الذي يدور حول “عمّـان في الأربعينات” ترتبط الكتابة الروائية، بالجسد والتعبير
+                        والفصاحه العربيه
+                    </p>
+                    <a href="https://ar.wikipedia.org/wiki/سيرة_مدينة_(كتاب)">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">© 2023 كتب وراء الستار</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfcB0RwZ-1HeluH5JrRwIcSP-85_bHsdZ6Lf5lSJ8qXndjIaxnTu5KMLc70GpFnu1yeUIbOy4eXNPDmBkmloTznS3ZU14pZ1f-p3Vi1NIKS2Hg&smuh=60025&lh=Ac-qYWXWQKnUFHRz18U"
+                class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/raad_sahori/?igsh=OWRwdG51ZWp1eW5x&utm_source=qr"
+                class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/+962789362638" class="social-icon"><img src="images/whats.png" alt="WhatsApp"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

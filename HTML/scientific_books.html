@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الكتب الراقي</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: url('images/try8.jpg') center/cover no-repeat;
+            color: #78b5f1;
+        }
+
+        header {
+            background-color: #78b5f1;
+            padding: 10px;
+            text-align: center;
+            color: #232451;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .scientific-section {
+            background-color: #182e51;
+            box-shadow: -2px -1px 20px 8px rgb(8 24 61 / 80%);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .children-section h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .children-section p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-types {
+            background-color: #182e51;
+            box-shadow: -2px -1px 20px 8px rgb(8 24 61 / 80%);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .book-types div {
+            flex: 1;
+            padding: 20px;
+            background-color: #78b5f1;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .book-types div:hover {
+            transform: scale(1.05);
+        }
+
+        .book-types div img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .book-types div h3 {
+            font-size: 1.3em;
+            opacity: 0.8;
+            color: white;
+        }
+
+        .book-types div p {
+            font-size: 1.09em;
+            color: #ffffffb0;
+        }
+
+        .book-types div a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #31566e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .book-types div a:hover {
+            background-color: #527f9a;
+        }
+
+
+        footer {
+            padding: 10px;
+            background-color: #6a98c596;
+            color: #f3f2f2;
+            position: relative;
+        }
+
+
+        .social-media {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon img {
+            width: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 1px;">كتب وراء الستار-كتب علمية</h1>
+    </header>
+
+    <div class="container">
+        <section class="scientific-section">
+            <h2>: اكتشف تشكيلتنا الممتعة من الكتب العلمية</h2>
+
+            <div class="book-types">
+                <div>
+                    <img src="images/book1.png" alt="Book Image">
+                    <h3>كلام في العلم</h3>
+                    <p> يقدم هذا الكتاب 15 موضوعًا علميًا، ينير للقارئ الطريق أمام فهم أفضل للكون والحياة بشكل جذاب
+                        وممتع للقارئ</p>
+                    <a href="https://watanbooks.com/product/كلام-في-العلم-دليلك-الى-أبرز-15-موضوع-عل/">معلومات
+                        إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/88.png" alt="Book Image">
+                    <h3>نظرية الفستق</h3>
+                    <p>كتاب سيغير طريقة تفكيرك وحكمك على الأشياء. يحتوي على مجموعة مقالات تتمحور غالبا عن تطوير الذات
+                        والبرمجة </p>
+                    <a href="https://ar.wikipedia.org/wiki/نظرية_الفستق_(كتاب))">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/15.png" alt="Book Image">
+                    <h3>التصميم الذكي</h3>
+                    <p>تكمن الفكرة من هذا الكتاب في إظهار وجود هذه الأنماط في الأنظمة الأحيائية وأنه لا يوجد سبب مقنع
+                        لإلغاء التصميم </p>
+                    <a href="https://watanbooks.com/product/التصميم-الذكي-ومفهوم-التعقيد-المحدد-ت/">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/p5.png" alt="Book Image">
+                    <h3>الأصل</h3>
+                    <p>هذا الكتاب يعطي لمحة عن حدث قادم يحمل في طياته إثارة وتوقعات كبيرة بفضل إعلان علمي هام سيقدمه
+                        إيموند </p>
+                    <a href="https://ar.wikipedia.org/wiki/الأصل_(رواية)">معلومات إضافية</a>
+                    <a href="">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/12.png" alt="Book Image">
+                    <h3>القوة</h3>
+                    <p>في هذا الكتاب محاولة لاختزال ثلاثة آلاف عام من التاريخ الإنساني بقصص منتقاة عن كيفية اكتساب القوة
+                    </p>
+                    <a href="https://watanbooks.com/product/كتاب-48-قانوناً-للقــوة-للكاتب-روبرت-غر/">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="scientific-section">
+            <div class="book-types">
+                <div>
+                    <img src="images/bb.png" alt="Book Image">
+                    <h3>الأب الغني الأب الفقير </h3>
+                    <p>وموضوعه هو شرح العديد من الوسائل كالإستثمار وامتلاك الأصول والإستثمار بها والبدء في مشروع تجاري
+                    </p>
+                    <a href="https://ar.wikipedia.org/wiki/الأب_الغني_والأب_الفقير">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/000.png" alt="Book Image">
+                    <h3>رياضيات بلا ارقام </h3>
+                    <p>الأرقام الوحيدة في هذا الكتاب هي أرقام الصفحات بينما يتركز التعليم التقليدي للرياضيات يوضح ميلو
+                        بيكمان </p>
+                    <a href="https://ar.wikipedia.org/wiki/الجريمة_والعقاب">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/122.png" alt="Book Image">
+                    <h3>تاريخ موجز للزمن</h3>
+                    <p>كتاب يجيب عن تساؤلات عديدة قليلاً منا ما يفكر فى طرحهاو يحتوى على إشراقات في مجالات الفيزياء</p>
+                    <a href="https://ar.wikipedia.org/wiki/تاريخ_موجز_للزمن">معلومات إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+
+                <div>
+                    <img src="images/16.png" alt="Book Image">
+                    <h3>كتاب العقل الممتد</h3>
+                    <p>يتناول هذا الجزء من الكتاب كيف يمكن لهذا المفهوم أن يغير بشكل جذري الطريقة التي نتعلم ونعمل
+                        ونتفاعل
+                        بها مع بعضنا البعض،</p>
+                    <a href="https://rattibha.com/thread/1734945161820692673">معلومات إضافية</a>
+
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+                <div>
+                    <img src="images/18.png" alt="Book Image">
+                    <h3>كتاب لماذا العلم</h3>
+                    <p>يهدف هذا الكتاب إلى تحسين الرصيد القومي من المواطنين ذوي الكفاءة والأهلية لممارسة الديموقراطية،
+                    </p>
+                    <a href="https://real-sciences.com/قراءات-في-كتب-علمية/عرض-كتب-لماذا-العلم؟ل-جيمس-تريفل/">معلومات
+                        إضافية</a>
+                    <a href="add_to_cart.php?book=102">إضافة إلى السلة</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">© 2023 كتب وراء الستار</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfcB0RwZ-1HeluH5JrRwIcSP-85_bHsdZ6Lf5lSJ8qXndjIaxnTu5KMLc70GpFnu1yeUIbOy4eXNPDmBkmloTznS3ZU14pZ1f-p3Vi1NIKS2Hg&smuh=60025&lh=Ac-qYWXWQKnUFHRz18U"
+                class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/raad_sahori/?igsh=OWRwdG51ZWp1eW5x&utm_source=qr"
+                class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/+962789362638" class="social-icon"><img src="images/whats.png" alt="WhatsApp"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
